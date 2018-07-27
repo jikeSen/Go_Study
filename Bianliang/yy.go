@@ -12,4 +12,5 @@ func testCall() {
 
 func main() {
 	Calls()
+	testCall()
 }
