@@ -11,7 +11,6 @@ func main() {
 	const length = 30
 	var f *os.File
 
-	//创建write 对象
 	w := bufio.NewWriter(f)
 
 	res, err := w.ReadFrom(f)
